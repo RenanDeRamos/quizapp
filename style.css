@@ -51,4 +51,7 @@ header {
     border-radius: 999px;
 }
 
-main
+main {
+    padding: 32px 24px;
+    
+}
