@@ -12,6 +12,12 @@
     --white: #fff;
     --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
+    --shadow: 8px 16px 40px 8px #rgba(143, 168, 193, 0.14);
+    --bg-html: #fff1e9;
+    --bg-css: #e0fdef;
+    --bg-java: #ebf0ff;
+    --bg-acessibilidade: #f6e7ff;
+    --button-bg: #fff;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg)
 
 }
@@ -24,7 +30,6 @@ body {
 
 }
 header {
-    b
     padding: 16px 24px;
     display:flex;
     justify-content: flex-end;
@@ -33,7 +38,7 @@ header {
   
   padding: 8px 0;
   display: flex;
-  align-itens: center;
+  align-items: center;
   gap: 8px;
 
 }
@@ -63,7 +68,7 @@ main {
     margin-bottom: 40px;
 }
 .boas_vindas h1 {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 300;
     color: var(--primary-text-color);
     margin-bottom: 16px;
@@ -78,4 +83,35 @@ main {
     font-size: 14px;
     line-height: 150%;
     font-style: italic;
+}
+.assuntos {
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+}
+.assuntos button {
+    border: none;
+    background: var(--button-bg);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+.botao_html div {
+    background: var(--bg-html);
+}
+
+.botao_css div {
+    background: var(--bg-css);
+}
+
+.botao_java div {
+    background: var(--bg-java);
+}
+.botao_acessibilidade div {
+    background: var(--bg-acessibilidade);
 }
