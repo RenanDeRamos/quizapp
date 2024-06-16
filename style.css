@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing:  border-box;
+    font-family: "Rubik", sans-serif;
+    -webkit-font-smoothing: antialised;
 
 }
 :root {
     --bg-color: #f4f6fa;
     --purple: #a729f5;
-    --white: #ffff;
+    --white: #fff;
+    --primary-text-color: #313e51;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg)
 
 }
@@ -53,5 +56,10 @@ header {
 
 main {
     padding: 32px 24px;
-    
+
+}
+main h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: var(--primary-text-color)
 }
