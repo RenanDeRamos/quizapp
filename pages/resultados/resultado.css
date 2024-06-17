@@ -20,8 +20,6 @@
     --bg-java: #ebf0ff;
     --bg-acessibilidade: #f6e7ff;
     --pontuacao-bg: #fff;
-    --green: #26d782;
-    --red: #ee5454;
     --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
 }
@@ -118,6 +116,7 @@ header {
      gap: 16px;
      border-radius: 12px;
      margin-bottom: 12px;
+     box-shadow: var(--shadow);
   }
   .pontuacao strong {
     font-size: 88px;
@@ -139,6 +138,7 @@ header {
         font-size: 18px;
         font-weight: 500;
         transition: background 0.3s;
+        box-shadow: var(--shadow);
 }
 main button:hover {
     background: var(--purple-hover);
