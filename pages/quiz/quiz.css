@@ -219,6 +219,7 @@ header {
     font-size: 18px;
     font-weight: 500;
     transition: background 0.3s;
+    cursor: pointer;
   }
   .pergunta h2 {
     font-size: 20px;
