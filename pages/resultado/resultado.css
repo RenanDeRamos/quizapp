@@ -200,7 +200,7 @@ main button:hover {
       main {
         display: flex;
         gap: 140px;
-        max-width: 1160;
+        max-width: 1160px;
         margin-inline: auto;
       }
       main h2,

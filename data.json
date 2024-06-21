@@ -213,7 +213,7 @@
             ]
         },
         {
-            "title": "Javascript",
+            "title": "javascript",
             "icon": "../../assets/images/icon-js.svg",
             "questions": [
                 {
@@ -418,7 +418,7 @@
                         "Validador W3C",
                         "Google Lighthouse",
                         "Validador CSS",
-                        "Console JavaScript"
+                        "Console Javascript"
                     ],
                     "answer": "Google Lighthouse"
                 }

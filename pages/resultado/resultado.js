@@ -26,7 +26,7 @@ function alterarAssunto() {
 }
 alterarAssunto()
 function inserirResultado() {
-  const sectionPontuacao = documente.querySelector(".pontuacao")
+  const sectionPontuacao = document.querySelector(".pontuacao")
   const divAssunto = document.querySelector(".assunto")
   const pontos = localStorage.getItem("pontos")
   sectionPontuacao.innerHTML = `

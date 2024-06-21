@@ -169,7 +169,7 @@ header {
 }
 main {
     display: flex;
-    max-width: 11160;
+    max-width: 1160px;
     margin-inline: auto;
 }
 section{
